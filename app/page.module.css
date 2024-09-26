@@ -1,0 +1,69 @@
+.main {
+    background-color: #000;
+    color: #fff;
+    min-height: 100vh;
+    padding: 2rem;
+    font-family: monospace;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left; /* Aligns text to the left */
+  }
+  
+  /* Flexbox container for profile picture and the text next to it */
+  .profileSection {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 2rem;
+  }
+  
+  .image {
+    margin-right: 2rem; /* Space between image and text */
+  }
+  
+  .textWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .links {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+  }
+  
+  .bio, .contact {
+    margin-bottom: 2rem;
+  }
+  
+  .bio a, .contact a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Horizontal line styling */
+  .hrLine {
+    border: none; /* Removes the default border */
+    border-top: 1px solid #cccccc; /* Creates a thin line */
+    margin: 2rem 0; /* Adds spacing around the line */
+  }
+  
+  
+  .thanks {
+    margin-top: 2rem;
+  }
+  
