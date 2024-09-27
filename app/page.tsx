@@ -22,8 +22,8 @@ export default function Home() {
       <hr className={styles.hrLine} /> {/* Line between sections */}
 
       <div className={styles.bio}>
-        <p>heylo hoomans, thank's for stumbling upon my page. I'm a student, programmer. I'm a machine learning engineer, currently building a project on Solana.</p>
-        <p>i used to work as a ML researcher but now i'm more into intgrating ml in blockchain.</p>
+        <p>heylo hoomans, thank&apos;s for stumbling upon my page. I&apos;m a student, programmer. I&apos;m a machine learning engineer, currently building a project on Solana.</p>
+        <p>i used to work as a ML researcher but now i&apos;m more into intgrating ml in blockchain.</p>
         <p>i&apos;ve built a project known as RUG DETECTION API which basically tells us if there is a risk associated with Token on Solana(built it as a Capstone project turbin3,though i didnt graduate from the cohort :)).</p>
       </div>
 
